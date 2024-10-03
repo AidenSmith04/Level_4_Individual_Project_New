@@ -1,17 +1,17 @@
 # Plan
 
-* PROJECT TITLE
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
+* Perception of Virtual Art - Can Virtual Sculpture have Real Impact on the Perception of a Public Space
+* Aiden Smith
+* 2660428S
+* Mark McGill
 
 Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
-* **Week 1**
-* **Week 2**
-* **Week 3**
+* **Week 1** Researching Papers
+* **Week 2** Researching Papers
+* **Week 3** Researching Papers + Learning how to use the Meta Quest 3
 * **Week 4**
 * **Week 5**
 * **Week 6**
