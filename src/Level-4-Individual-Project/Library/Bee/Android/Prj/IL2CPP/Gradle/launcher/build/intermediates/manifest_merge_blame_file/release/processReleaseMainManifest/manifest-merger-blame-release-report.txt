@@ -261,28 +261,34 @@
 139-->[:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:128:13-61
 140            android:value="LOW" />
 140-->[:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:129:13-32
-141
-142        <provider
-142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-143            android:name="androidx.startup.InitializationProvider"
-143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-144            android:authorities="com.DefaultCompany.Level4IndividualProject.androidx-startup"
-144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-145            android:exported="false" >
-145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-146            <meta-data
-146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-148                android:value="androidx.startup" />
-148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+141        <meta-data
+141-->[:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:130:9-132:36
+142            android:name="com.oculus.handtracking.version"
+142-->[:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:131:13-59
+143            android:value="V2.0" />
+143-->[:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:132:13-33
+144
+145        <provider
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+146            android:name="androidx.startup.InitializationProvider"
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+147            android:authorities="com.DefaultCompany.Level4IndividualProject.androidx-startup"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+148            android:exported="false" >
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 149            <meta-data
-149-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-150-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+150                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 151                android:value="androidx.startup" />
-151-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-152        </provider>
-153    </application>
-154
-155</manifest>
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+152            <meta-data
+152-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+153                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+153-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+154                android:value="androidx.startup" />
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+155        </provider>
+156    </application>
+157
+158</manifest>

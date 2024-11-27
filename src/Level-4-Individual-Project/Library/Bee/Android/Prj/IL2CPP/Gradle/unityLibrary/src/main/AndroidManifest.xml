@@ -35,6 +35,7 @@
     <meta-data android:name="com.unity.xr.oculus.LateLatching" android:value="false" />
     <meta-data android:name="com.unity.xr.oculus.LateLatchingDebug" android:value="false" />
     <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW" />
+    <meta-data android:name="com.oculus.handtracking.version" android:value="V2.0" />
   </application>
   <uses-feature android:name="oculus.software.handtracking" android:required="false" />
   <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />

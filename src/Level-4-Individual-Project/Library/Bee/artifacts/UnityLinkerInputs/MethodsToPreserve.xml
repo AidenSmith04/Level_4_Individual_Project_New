@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Meta.XR.BuildingBlocks" ignoreIfMissing="1">
+		<type fullname="Meta.XR.BuildingBlocks.SpatialAnchorCoreBuildingBlock">
+			<method name="EraseAllAnchors"/>
+		</type>
+		<type fullname="Meta.XR.BuildingBlocks.SpatialAnchorLoaderBuildingBlock">
+			<method name="LoadAnchorsFromDefaultLocalStorage"/>
+		</type>
+		<type fullname="Meta.XR.BuildingBlocks.SpatialAnchorSpawnerBuildingBlock">
+			<method name="SpawnSpatialAnchor"/>
+		</type>
+	</assembly>
+</linker>

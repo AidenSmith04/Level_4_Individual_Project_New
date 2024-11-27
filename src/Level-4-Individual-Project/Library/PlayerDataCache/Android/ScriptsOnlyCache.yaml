@@ -2,10 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Meta.XR.Audio:
     - MetaXRAcousticMaterialMapping
+    - MetaXRAcousticSettings
+    - MetaXRAudioSettings
     Meta.XR.Audio.Editor.dll:
     - MetaXRAcousticMaterialMappingEditor
     Meta.XR.Audio.dll:
     - MetaXRAcousticMaterialMapping
+    - MetaXRAcousticSettings
+    - MetaXRAudioSettings
     Meta.XR.BuildingBlocks.DepthAPI.Editor.dll:
     - Meta.XR.BuildingBlocks.Editor.OcclusionBlockData
     Meta.XR.BuildingBlocks.Editor.dll:
@@ -124,7 +128,6 @@ ScriptsOnlyBuild:
     - OVRConfig
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
-    - OVRConfig
     - OVRProjectConfig
     Oculus.VR.dll:
     - OVRCameraRig
@@ -202,7 +205,10 @@ ScriptsOnlyBuild:
     - Meta.XR.MRUtilityKit.MRUtilityKitBlockData
   serializedClasses:
     Meta.XR.BuildingBlocks:
+    - Meta.XR.BuildingBlocks.ControllerButtonsMapper/ButtonClickAction
     - Meta.XR.BuildingBlocks.InstallationRoutineCheckpoint
+    Oculus.VR:
+    - .OVRSpatialAnchor/OperationResult
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
     Unity.InputSystem:
@@ -212,9 +218,22 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
     - UnityEngine.Events.UnityEvent`1
-  methodsToPreserve: []
+    - UnityEngine.Events.UnityEvent`2
+  methodsToPreserve:
+  - assembly: Meta.XR.BuildingBlocks
+    fullTypeName: Meta.XR.BuildingBlocks.SpatialAnchorSpawnerBuildingBlock
+    methodName: SpawnSpatialAnchor
+  - assembly: Meta.XR.BuildingBlocks
+    fullTypeName: Meta.XR.BuildingBlocks.SpatialAnchorLoaderBuildingBlock
+    methodName: LoadAnchorsFromDefaultLocalStorage
+  - assembly: Meta.XR.BuildingBlocks
+    fullTypeName: Meta.XR.BuildingBlocks.SpatialAnchorCoreBuildingBlock
+    methodName: EraseAllAnchors
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -237,20 +256,36 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 30586}
     - Class: 114
+      Script: {instanceID: 30648}
+    - Class: 114
+      Script: {instanceID: 30728}
+    - Class: 114
       Script: {instanceID: 31704}
     - Class: 114
+      Script: {instanceID: 31816}
+    - Class: 114
       Script: {instanceID: 33004}
+    - Class: 114
+      Script: {instanceID: 33656}
     - Class: 114
       Script: {instanceID: 34076}
     - Class: 114
@@ -260,22 +295,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 34468}
     - Class: 114
+      Script: {instanceID: 35684}
+    - Class: 114
       Script: {instanceID: 36110}
     - Class: 114
       Script: {instanceID: 36776}
     - Class: 114
       Script: {instanceID: 37918}
     - Class: 114
+      Script: {instanceID: 39132}
+    - Class: 114
+      Script: {instanceID: 39630}
+    - Class: 114
       Script: {instanceID: 40664}
     - Class: 114
       Script: {instanceID: 41548}
+    - Class: 114
+      Script: {instanceID: 41614}
     - Class: 114
       Script: {instanceID: 41876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 135
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}

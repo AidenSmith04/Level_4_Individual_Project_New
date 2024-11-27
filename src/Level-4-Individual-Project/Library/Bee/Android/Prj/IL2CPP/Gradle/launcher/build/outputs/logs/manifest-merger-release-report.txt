@@ -4,7 +4,7 @@ ADDED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Pro
 INJECTED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-132:12
+MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-135:12
 MERGED from [:InteractionSdk:] C:\Users\User\.gradle\caches\transforms-3\f77b62b436d0ee8ffd3d59cab8561fa9\transformed\jetified-InteractionSdk\AndroidManifest.xml:2:1-9:12
 MERGED from [:unityopus:] C:\Users\User\.gradle\caches\transforms-3\26d0741d14ac57eb96688e715cb632af\transformed\jetified-unityopus\AndroidManifest.xml:2:1-11:12
 MERGED from [:SDKTelemetry:] C:\Users\User\.gradle\caches\transforms-3\795604fea0c2a216862dc342af22fd22\transformed\jetified-SDKTelemetry\AndroidManifest.xml:2:1-9:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\User\.g
 application
 ADDED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 INJECTED from C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:5-130:19
-MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:5-130:19
+MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:5-133:19
+MERGED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:5-133:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-9:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-9:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\87addd2f9ef0ee0ee44e96c1653f474c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -406,6 +406,12 @@ ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-
 		ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:129:13-32
 	android:name
 		ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:128:13-61
+meta-data#com.oculus.handtracking.version
+ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:130:9-132:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:132:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\User\Unity\Level 4 Individual Project\Level-4-Individual-Project\src\Level-4-Individual-Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:131:13-59
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
