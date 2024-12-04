@@ -139,6 +139,3 @@ Assets/Plugins/**       linguist-vendored
 *.skel.bytes            lfs
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
-*.so filter=lfs diff=lfs merge=lfs -text
-*.aar filter=lfs diff=lfs merge=lfs -text
-src/Level-4-Individual-Project/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
