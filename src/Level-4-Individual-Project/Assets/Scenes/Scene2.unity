@@ -10948,7 +10948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc6a23b88361f8498219ac2b71b4317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _anchorPrefab: {fileID: 5996355657165545883, guid: d99d9800ee36e7a4ebaf326d8fb952b8, type: 3}
+  _anchorPrefab: {fileID: 5982271835542093354, guid: fa4b99cfae6f4914e9ce421fa5725015, type: 3}
   _followHand: 1
 --- !u!114 &1841152551
 MonoBehaviour:
