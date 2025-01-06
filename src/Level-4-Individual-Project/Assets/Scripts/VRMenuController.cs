@@ -4,12 +4,12 @@ public class VRMenuController : MonoBehaviour
 {
     public GameObject menuCanvas;  // The menu Canvas
     public float distanceInFront = 2.0f;  // Distance from the user's view
-    private Transform headTransform;
+    private Transform headTransform; // Centre position for the head
+    public OVRCameraRig cameraRig; 
 
     void Start()
     {
         // Get the head transform from the OVRCameraRig
-        var cameraRig = FindObjectOfType<OVRCameraRig>();
         if (cameraRig != null)
         {
             headTransform = cameraRig.centerEyeAnchor;  // Use centerEyeAnchor for head position
