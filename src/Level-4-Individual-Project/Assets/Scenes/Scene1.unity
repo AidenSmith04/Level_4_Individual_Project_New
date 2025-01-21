@@ -4957,6 +4957,7 @@ MonoBehaviour:
   _anchorPrefab: {fileID: 5982271835542093354, guid: fa4b99cfae6f4914e9ce421fa5725015, type: 3}
   _followHand: 1
   _displacement: {x: 0, y: 0, z: 1}
+  _rotationOffset: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &888314908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8864,12 +8865,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spatialAnchorController: {fileID: 888314904}
   prefabs:
+  - {fileID: 4011590693534441744, guid: 0e574857c2ea73a46a4314504a96f2e1, type: 3}
   - {fileID: 5982271835542093354, guid: fa4b99cfae6f4914e9ce421fa5725015, type: 3}
-  - {fileID: 5982271835542093354, guid: fa4b99cfae6f4914e9ce421fa5725015, type: 3}
+  - {fileID: 4702695521024738618, guid: 6e91a883bc30d69428556b9e77993f11, type: 3}
   - {fileID: 5996355657165545883, guid: d99d9800ee36e7a4ebaf326d8fb952b8, type: 3}
-  - {fileID: 5996355657165545883, guid: d99d9800ee36e7a4ebaf326d8fb952b8, type: 3}
-  - {fileID: 9053375057188652499, guid: e9367caddeee5a940a477e00f848fd58, type: 3}
-  - {fileID: 9053375057188652499, guid: e9367caddeee5a940a477e00f848fd58, type: 3}
+  - {fileID: 8549291225030509496, guid: 27f56742ebf6cd6499a0a2591df934e1, type: 3}
+  - {fileID: 3047462487892918545, guid: 0096b021191461e42ab942755c6a8d5b, type: 3}
   displacements:
   - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 3}
@@ -8877,6 +8878,13 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 3}
   - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 3}
+  rotations:
+  - {x: 0, y: 180, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 180, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 180, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1487307063
 GameObject:
   m_ObjectHideFlags: 0
