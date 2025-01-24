@@ -8865,12 +8865,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spatialAnchorController: {fileID: 888314904}
   prefabs:
-  - {fileID: 4011590693534441744, guid: 0e574857c2ea73a46a4314504a96f2e1, type: 3}
-  - {fileID: 5982271835542093354, guid: fa4b99cfae6f4914e9ce421fa5725015, type: 3}
-  - {fileID: 4702695521024738618, guid: 6e91a883bc30d69428556b9e77993f11, type: 3}
-  - {fileID: 5996355657165545883, guid: d99d9800ee36e7a4ebaf326d8fb952b8, type: 3}
-  - {fileID: 8549291225030509496, guid: 27f56742ebf6cd6499a0a2591df934e1, type: 3}
-  - {fileID: 3047462487892918545, guid: 0096b021191461e42ab942755c6a8d5b, type: 3}
+  - {fileID: 4060021661168364983, guid: e34ee3cc58b7d3f4e85e067d2f9334fe, type: 3}
+  - {fileID: 1117072110828252928, guid: 5bc1cc90a3ae0144a86a94c65c8e3645, type: 3}
+  - {fileID: 459612266905473450, guid: 1e0c2ccf0dbed944ab07f7d761048bac, type: 3}
+  - {fileID: 6716119788623865031, guid: ec0d71bf6d8aba740bf178b5f79e8072, type: 3}
+  - {fileID: 4143562640455591658, guid: 68358c8dc58ec114f8fcda1de675cadb, type: 3}
+  - {fileID: 6021518198240785205, guid: c37c396e8ba1e8e4e987f1a6a5d332ba, type: 3}
   displacements:
   - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 3}
@@ -8879,11 +8879,11 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 3}
   rotations:
-  - {x: 0, y: 180, z: 0, w: 0}
   - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 180, z: 0, w: 0}
   - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 180, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
   - {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1487307063
 GameObject:
