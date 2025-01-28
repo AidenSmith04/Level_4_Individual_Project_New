@@ -8872,12 +8872,12 @@ MonoBehaviour:
   - {fileID: 4143562640455591658, guid: 68358c8dc58ec114f8fcda1de675cadb, type: 3}
   - {fileID: 6021518198240785205, guid: c37c396e8ba1e8e4e987f1a6a5d332ba, type: 3}
   displacements:
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 3}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 3}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 3}
+  - {x: 0, y: 0, z: 7.2}
+  - {x: 0, y: 0, z: 5.2}
+  - {x: 0, y: 0, z: 4.5}
+  - {x: 0, y: 0, z: 4.9}
+  - {x: 0, y: 0, z: 5.1}
+  - {x: 0, y: 0, z: 2.5}
   rotations:
   - {x: 0, y: 0, z: 0, w: 0}
   - {x: 0, y: 0, z: 0, w: 0}
