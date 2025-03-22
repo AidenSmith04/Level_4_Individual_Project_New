@@ -1,0 +1,113 @@
+using UnityEngine;
+
+namespace Meta.XR.BuildingBlocks
+{
+    [RequireComponent(typeof(SpatialAnchorSpawnerBuildingBlock))]
+    public class SpatialAnchorSpawnerBuildingBlock : MonoBehaviour
+    {
+        public GameObject AnchorPrefab
+        {
+            get => _anchorPrefab;
+            set
+            {
+                _anchorPrefab = value;
+                if (_anchorPrefabTransform) Destroy(_anchorPrefabTransform.gameObject);
+                _anchorPrefabTransform = Instantiate(AnchorPrefab).transform;
+                FollowHand = _followHand;
+            }
+        }
+
+        public bool FollowHand
+        {
+            get => _followHand;
+            set
+            {
+                _followHand = value;
+                if (_followHand)
+                {
+                    _initialPosition = _anchorPrefabTransform.position;
+                    _initialRotation = _anchorPrefabTransform.rotation;
+                    _anchorPrefabTransform.parent = _cameraRig.rightControllerAnchor;
+                    // Apply displacement to the object's position
+                    _anchorPrefabTransform.localPosition = _displacement;  // Add displacement here
+                    // Apply the custom rotation adjustment
+                    _anchorPrefabTransform.localRotation = _rotationOffset;  // Apply rotation offset here
+                }
+                else
+                {
+                    _anchorPrefabTransform.parent = null;
+                    _anchorPrefabTransform.SetPositionAndRotation(_initialPosition, _initialRotation);
+                }
+            }
+        }
+
+        [Tooltip("A placeholder object to place in the anchor's position.")]
+        [SerializeField]
+        private GameObject _anchorPrefab;
+
+        [Tooltip("Anchor prefab GameObject will follow the user's right hand.")]
+        [SerializeField] private bool _followHand = true;
+
+        [Tooltip("Position displacement to apply when following the hand.")]
+        [SerializeField]
+        private Vector3 _displacement = new Vector3(0.1f, 0.0f, 0.0f);
+
+        [Tooltip("Rotation offset to apply when following the hand.")]
+        [SerializeField]
+        private Quaternion _rotationOffset = Quaternion.identity;  // New variable for rotation offset
+
+        private SpatialAnchorCoreBuildingBlock _spatialAnchorCore;
+        private OVRCameraRig _cameraRig;
+        private Transform _anchorPrefabTransform;
+        private Vector3 _initialPosition;
+        private Quaternion _initialRotation;
+
+        private void Awake()
+        {
+            _spatialAnchorCore = SpatialAnchorCoreBuildingBlock.GetBaseInstances()[0];
+            _cameraRig = FindAnyObjectByType<OVRCameraRig>();
+            AnchorPrefab = _anchorPrefab;
+            FollowHand = _followHand;
+        }
+
+        /// <summary>
+        /// Spawn a spatial anchor.
+        /// </summary>
+        /// <param name="position">Position for the new anchor.</param>
+        /// <param name="rotation">Orientation of the new anchor</param>
+        public void SpawnSpatialAnchor(Vector3 position, Quaternion rotation)
+        {
+            _spatialAnchorCore.InstantiateSpatialAnchor(AnchorPrefab, position, rotation);
+        }
+
+        internal void SpawnSpatialAnchor()
+        {
+            if (!FollowHand)
+                SpawnSpatialAnchor(AnchorPrefab.transform.position, AnchorPrefab.transform.rotation);
+            else
+                SpawnSpatialAnchor(_anchorPrefabTransform.position, _anchorPrefabTransform.rotation);
+        }
+
+        public void SetDisplacement(Vector3 newDisplacement)
+        {
+            _displacement = newDisplacement;
+
+            // If the anchor prefab is following the hand, update its position based on the new displacement
+            if (_followHand && _anchorPrefabTransform != null)
+            {
+                _anchorPrefabTransform.localPosition = _displacement;
+            }
+        }
+
+        public void SetRotationOffset(Quaternion newRotationOffset)
+        {
+            _rotationOffset = newRotationOffset;
+
+            // If the anchor prefab is following the hand, update its rotation based on the new rotation offset
+            if (_followHand && _anchorPrefabTransform != null)
+            {
+                _anchorPrefabTransform.localRotation = _rotationOffset;
+            }
+        }
+    }
+}
