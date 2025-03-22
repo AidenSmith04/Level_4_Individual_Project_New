@@ -1,3 +1,16 @@
 # User manual 
 
-Describe how to use your software, if this makes sense for your code. Almost all projects should have at least some instructions on how to run the code. More extensive instructions can be provided here.
+This experience is designed to allow you to observe models of art in real-life public spaces. This version is set up for three locations around the University of Glasgow
+
+## Installation:
+* Requirements: A Meta Quest 3 Headset
+* Build and Run the Program onto the headset and open it in the headset
+
+## Controls:
+
+| Action       | Key/Button  |
+|-------------|------------|
+| Open/Close Condition Menu        | X |
+| Select Condition in Menu        | Point Controller to condition and press the back trigger of the controller that is pointing at it      |
+| Place Model      | A |
+| Remove all Models    | Press in Left Joystick |
