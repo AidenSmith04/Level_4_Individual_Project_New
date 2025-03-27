@@ -1,0 +1,14 @@
+
+| **Interview Excerpt**                                                                                                                                                    | **Theme(s)**                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| "It was definitely good. I've never used any AR headset like that before, so I didn't really have any pre-expectations."                                                 | First Impressions, Novelty                       |
+| "It was definitely an interesting experience."                                                                                                                           | Overall Impression                               |
+| "In some environments, it definitely added to the space. The art worked best in the ARC and the Quad, as they matched the environments well."                            | Art Placement, Atmosphere                        |
+| "In the Quad, with the 3D models, it made the space feel less open and more closed in, but in the road, it felt out of place."                                           | Impact of Art on Space, Perception               |
+| "Just the end with the big metal statue outside the ARC, getting to walk under it and interact with it, even though I couldn’t touch it, it felt real."                  | Emotional Reactions, Interactivity               |
+| "Art is about making people feel something. This definitely got that across, whether it was looking at a flat wall or interacting with a big statue."                    | Emotional Reactions, Art Preferences             |
+| "I think it definitely changed how I would have felt seeing this art compared to more traditional ways. Some textures were off, and those little details are important." | Comparison with Traditional Art, Art Preferences |
+| "Seeing the art in a different place was definitely interesting, but it also took away from the experience because it didn't feel as real."                              | Perception, Impact of Art Placement              |
+| "Maybe the texture quality could be improved. I'm not sure if it’s a quality issue, or just how AR looks right now. I think it will get better with time."               | Suggestions for Improvement, Future Use          |
+| "I would definitely give it another shot. It would be interesting to see the same art with better quality as the technology improves."                                   | Future Use, Engagement and Enjoyment             |
+| "Overall, it was a good experience, and I enjoyed myself."                                                                                                               | Overall Impression                               |
